@@ -4,6 +4,8 @@ This project delivers a command-line interface (CLI) application aimed at stream
 
 The primary business value lies in simplifying the management of active and inactive courses and assignments, allowing for improved oversight and streamlined data retrieval processes. This solution minimizes the need for manual intervention in viewing and organizing educational content, increasing productivity and operational efficiency.
 
+The key technical enhancement in this project is the use of **Reactive Programming** with **Mono** and **Spring WebFlux**. This reactive approach allows for **non-blocking, asynchronous data retrieval**, which improves the application's performance and scalability by efficiently handling multiple requests simultaneously.
+
 For this project, we developed a **Spring Boot command line program** utilizing **Picocli** and **GraphQL** to interact with course and assignment data via a CLI interface. The main functionality is divided into two subcommands: `list-courses` and `list-assignments`. Each subcommand has options for listing active or inactive entities, providing a straightforward way to manage and view information.
 
 ### Subcommand 1: `list-courses`
